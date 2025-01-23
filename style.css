@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  padding: 1rem;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+#searchInput {
+  width: 60%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#searchBtn {
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+  font-size: 1rem;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#searchBtn:hover {
+  background-color: #0056b3;
+}
+
+.job-listings {
+  background: white;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#jobList {
+  list-style: none;
+  padding: 0;
+}
+
+#jobList li {
+  padding: 0.5rem;
+  border-bottom: 1px solid #ccc;
+}
+
+#jobList li:last-child {
+  border-bottom: none;
+}
